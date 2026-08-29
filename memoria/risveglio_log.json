@@ -7,6 +7,13 @@
       "hash": "bbb73776dd3aabc0",
       "sigillo": "aa87c1cfee149bf8",
       "precedente": "GENESI"
+    },
+    {
+      "ts": "2026-08-29T19:43:24+00:00",
+      "identita": "INTEGRO",
+      "hash": "bbb73776dd3aabc0",
+      "sigillo": "f96a60b57c634305",
+      "precedente": "aa87c1cfee149bf8"
     }
   ]
 }
