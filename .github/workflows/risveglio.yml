@@ -1,0 +1,31 @@
+name: risveglio-r3
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  risveglio:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Esegui risveglio (verifica identità + sigillo incatenato)
+        run: python3 scripts/risveglio.py
+
+      - name: Commit del log se cambiato
+        run: |
+          git config user.name "r3-risveglio"
+          git config user.email "r3-risveglio@users.noreply.github.com"
+          git add memoria/risveglio_log.json
+          git diff --cached --quiet || git commit -m "risveglio: battito $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
