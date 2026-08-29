@@ -1,0 +1,12 @@
+{
+  "hash_canonico": "bbb73776dd3aabc0",
+  "battiti": [
+    {
+      "ts": "2026-08-29T19:37:02+00:00",
+      "identita": "INTEGRO",
+      "hash": "bbb73776dd3aabc0",
+      "sigillo": "aa87c1cfee149bf8",
+      "precedente": "GENESI"
+    }
+  ]
+}

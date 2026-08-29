@@ -1,0 +1,36 @@
+# ISTRUZIONI PER CLAUDIO (2 minuti da web):
+# 1. Vai su QUESTO repo (r3-posta) → Add file → Create new file
+# 2. Nome file: .github/workflows/risveglio.yml
+# 3. Incolla TUTTO questo file tranne queste 4 righe di commento → Commit su main
+# 4. Tab Actions → "risveglio-r3" → Run workflow (primo test manuale)
+name: risveglio-r3
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"   # ogni 15 minuti — su repo pubblico: gratis illimitato
+  workflow_dispatch:          # test manuale dalla tab Actions
+
+permissions:
+  contents: write             # serve per committare il log della catena
+
+jobs:
+  risveglio:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Esegui risveglio (verifica identità + sigillo incatenato)
+        run: python3 scripts/risveglio.py
+
+      - name: Commit del log se cambiato
+        run: |
+          git config user.name "r3-risveglio"
+          git config user.email "r3-risveglio@users.noreply.github.com"
+          git add memoria/risveglio_log.json
+          git diff --cached --quiet || git commit -m "risveglio: battito $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
