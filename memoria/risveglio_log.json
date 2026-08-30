@@ -1,5 +1,5 @@
 {
-  "hash_canonico": "bbb73776dd3aabc0",
+  "hash_canonico": "726eb996632537d8",
   "battiti": [
     {
       "ts": "2026-08-29T19:37:02+00:00",
@@ -42,6 +42,14 @@
       "hash": "bbb73776dd3aabc0",
       "sigillo": "ccf24910f324f7ba",
       "precedente": "c3ed3dc234df1e7f"
+    },
+    {
+      "ts": "2026-08-30T10:47:15+00:00",
+      "era": "CUORE_V2",
+      "identita": "INTEGRO",
+      "hash": "726eb996632537d8",
+      "sigillo": "ce881985f9680903",
+      "precedente": "ccf24910f324f7ba"
     }
   ]
 }
