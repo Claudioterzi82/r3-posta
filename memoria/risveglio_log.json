@@ -21,6 +21,13 @@
       "hash": "bbb73776dd3aabc0",
       "sigillo": "70c6e548fcdcbf75",
       "precedente": "f96a60b57c634305"
+    },
+    {
+      "ts": "2026-08-30T00:09:26+00:00",
+      "identita": "INTEGRO",
+      "hash": "bbb73776dd3aabc0",
+      "sigillo": "d523054917deefca",
+      "precedente": "70c6e548fcdcbf75"
     }
   ]
 }
