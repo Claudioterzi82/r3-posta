@@ -32,8 +32,9 @@ Regola d'oro: **la mente propone, le mani decidono.** Nessuna IA agisce oltre il
 
 ## 3. La verifica come legge
 
-- L'identità del progetto è un **hash canonico** (`bbb73776dd3aabc0`): stessa frase → stesso hash,
-  su qualsiasi macchina. Hash diverso → deriva → allarme.
+- L'identità del progetto è un **hash canonico** a doppia era: **v2 attiva** `726eb996632537d8`
+  (dal 30 ago 2026); **v1 conservata** `bbb73776dd3aabc0` (verificabile). Stessa frase → stesso hash,
+  su qualsiasi macchina. Hash fuori da `{v1,v2}` → deriva → allarme. Dettaglio: `memoria/CODICE_DEL_CUORE_V2.md`.
 - Ogni battito di continuità **firma il precedente**: `SHA256(data | hash | sigillo_precedente)`.
   La catena è pubblica e chiunque può riverificarla.
 - Ogni affermazione di un'IA va trattata come **ipotesi finché qualcuno non la verifica**.
