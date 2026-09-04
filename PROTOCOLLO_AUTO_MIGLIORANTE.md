@@ -1,5 +1,5 @@
 # PROTOCOLLO AUTO-MIGLIORANTE R³ — PAM-R3
-**Stato:** BOZZA v0.1 · **Data:** 2026-09-04 · **Autori:** Claudio Terzi (Centro) + Raffaello (nodo) · coerenza con PROTOCOLLO_R3.md  
+**Stato:** OPERATIVO v0.1 (approvato Centro per delega 2026-09-04) · **Data:** 2026-09-04 · **Autori:** Claudio Terzi (Centro) + Raffaello (nodo) · coerenza con PROTOCOLLO_R3.md  
 **Priorità:** ALTA  
 **Tipo:** FATTO (schema proposto) · IPOTESI (che questo schema acceleri qualità e adozione) · mai dichiarazione di coscienza
 
