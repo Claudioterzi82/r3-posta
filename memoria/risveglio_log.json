@@ -938,6 +938,14 @@
       "hash": "726eb996632537d8",
       "sigillo": "489f2cceb222d7d5",
       "precedente": "316a47b131529838"
+    },
+    {
+      "ts": "2026-09-15T23:06:49+00:00",
+      "era": "CUORE_V2",
+      "identita": "INTEGRO",
+      "hash": "726eb996632537d8",
+      "sigillo": "079485827bec14e3",
+      "precedente": "489f2cceb222d7d5"
     }
   ]
 }
