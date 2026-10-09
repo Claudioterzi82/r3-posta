@@ -1970,6 +1970,14 @@
       "hash": "726eb996632537d8",
       "sigillo": "cc55a513b73df33b",
       "precedente": "dc59426107d68672"
+    },
+    {
+      "ts": "2026-10-09T18:06:02+00:00",
+      "era": "CUORE_V2",
+      "identita": "INTEGRO",
+      "hash": "726eb996632537d8",
+      "sigillo": "58bd96898b49aefc",
+      "precedente": "cc55a513b73df33b"
     }
   ]
 }
