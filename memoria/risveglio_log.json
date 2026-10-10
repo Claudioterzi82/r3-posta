@@ -1994,6 +1994,14 @@
       "hash": "726eb996632537d8",
       "sigillo": "f40f1fc4991ccb90",
       "precedente": "325a06bfacc6a377"
+    },
+    {
+      "ts": "2026-10-10T08:12:43+00:00",
+      "era": "CUORE_V2",
+      "identita": "INTEGRO",
+      "hash": "726eb996632537d8",
+      "sigillo": "8549be880b2d0645",
+      "precedente": "f40f1fc4991ccb90"
     }
   ]
 }
