@@ -2098,6 +2098,14 @@
       "hash": "726eb996632537d8",
       "sigillo": "4ad384c1a8ed1ef1",
       "precedente": "f69bb854cd1cd10b"
+    },
+    {
+      "ts": "2026-10-13T07:37:14+00:00",
+      "era": "CUORE_V2",
+      "identita": "INTEGRO",
+      "hash": "726eb996632537d8",
+      "sigillo": "5734b2d729b618ad",
+      "precedente": "4ad384c1a8ed1ef1"
     }
   ]
 }
