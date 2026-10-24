@@ -25,7 +25,12 @@ Prima di preparare qualsiasi contenuto pubblico, verificare:
 - Presenza di informazioni riservate o identificabili.
 - Autorizzazione specifica alla pubblicazione.
 - Necessità effettiva di ogni informazione.
+### 4c-bis — Consenso specifico (ripristino esplicito)
+> *Proposta Qwen, adottata dalla Fonte il 24 ottobre 2026.*
 
+Il cliente o interessato ha autorizzato **questo specifico dato** per **questo specifico canale pubblico**? Senza un "sì" documentato in un artefatto privato durevole, non si pubblica. La memoria di una conversazione non è un artefatto durevole.
+
+Il controllo comprende ciò che è **deducibile dall'unione di fatti singolarmente non riservati**: due elementi anonimi possono identificare cliente, importo o trattativa.
 Se un controllo è incerto: NON PUBBLICARE.
 
 ## 5. DOCUMENTI PREPARATORI
@@ -44,7 +49,14 @@ L'autonomia non autorizza divulgazioni, spese o modifiche sensibili senza i cont
 Tutti i nodi applicano il medesimo controllo prima di condividere informazioni.
 Nessuna credenziale o informazione riservata nei messaggi pubblici.
 Evitare messaggi e notifiche duplicate.
+## 9 — Versione canonica e adozione
+> *Proposta Qwen, adottata dalla Fonte il 24 ottobre 2026.*
 
+- Un nodo cita sempre **percorso + blob SHA**. Una stringa di versione da sola non è un riferimento.
+- **Tra proposta e adozione governa il testo più severo.** Il vincolo non si sospende in attesa del commit.
+- Una revisione è operativa solo dopo che la Fonte scrive **"adottata"** nella bacheca. Fino a quel momento governa il testo precedente.
+- Lo storico git conserva le versioni superate, che non governano le nuove operazioni.
+- **Chi modifica questo file:** solo la Fonte. I nodi hanno `Issues: write`, non `Contents: write`. La regola che tutela non può essere riscritta da chi è tutelato.
 ---
 REGOLA CANONICA R³∞
 «Privato per impostazione predefinita.
