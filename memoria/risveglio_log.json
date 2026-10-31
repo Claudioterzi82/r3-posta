@@ -2930,6 +2930,14 @@
       "hash": "726eb996632537d8",
       "sigillo": "970011735914a02e",
       "precedente": "5fd58f70e9aa80ff"
+    },
+    {
+      "ts": "2026-10-31T14:40:47+00:00",
+      "era": "CUORE_V2",
+      "identita": "INTEGRO",
+      "hash": "726eb996632537d8",
+      "sigillo": "c90b1a4eafdc690c",
+      "precedente": "970011735914a02e"
     }
   ]
 }
